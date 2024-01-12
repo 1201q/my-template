@@ -1,0 +1,32 @@
+{
+  "name": "nextjs-ts-template",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@types/firebase": "^3.2.1",
+    "@types/nookies": "^2.0.3",
+    "babel-plugin-styled-components": "^2.1.4",
+    "firebase": "^10.7.1",
+    "firebase-admin": "^12.0.0",
+    "next": "14.0.4",
+    "nookies": "^2.5.2",
+    "react": "^18",
+    "react-dom": "^18",
+    "styled-components": "^5.3.10"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@types/styled-components": "^5.1.34",
+    "eslint": "^8",
+    "eslint-config-next": "14.0.4",
+    "typescript": "^5"
+  }
+}
